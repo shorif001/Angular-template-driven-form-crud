@@ -1,0 +1,41 @@
+.navbar.nav-background {
+  background-color: #d3d9e0;
+}
+
+/*.navbar{
+    background-color: green;
+}
+*/
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+  font-size: 18px;
+  background-color: #fff;
+  border-right: 2px solid #d3d9e0;
+  width: 140px;
+  text-align: center;
+}
+
+
+
+
+.navbar-brand {
+  color: white;
+  font-size: 22px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.dropdown-bg {
+  background: green;
+}
+
+.nav-content {
+  display: flex;
+}
+
+.logo a img {
+  width: 42px;
+}

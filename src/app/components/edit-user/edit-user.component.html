@@ -1,0 +1,22 @@
+<form #myForm="ngForm">
+    <div class="form-group">
+        <label>Full Name</label>
+        <input type="text" class="form-control" [(ngModel)]="userObj.fullName" name="fullName" placeholder="Full Name"/>
+    </div>
+    <div class="form-group">
+        <label>Mobile</label>
+        <input type="text" class="form-control" [(ngModel)]="userObj.mobile" name="mobile" placeholder="Mobile"/>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <input type="text" class="form-control" [(ngModel)]="userObj.email" name="email" placeholder="Email"/>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <input type="text" class="form-control" [(ngModel)]="userObj.password" name="password" placeholder="Password"/>
+    </div>
+
+    <button type="submit" (click)="updateUser()">Update</button>
+</form>
+
+
