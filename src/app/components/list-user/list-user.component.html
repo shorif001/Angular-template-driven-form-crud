@@ -18,6 +18,7 @@
             <td>{{user.password}}</td>
             <td>
                 <button routerLink="/edit/{{user.id}}" class="btn btn-warning">Edit</button> |
+                <button routerLink="/view/{{user.id}}" class="btn btn-warning">view</button> |
                 <button (click)="deleteUser(user.id)" class="btn btn-danger">Delete</button>
             </td>
 

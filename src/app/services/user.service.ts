@@ -29,4 +29,7 @@ export class UserService {
   deleteUser(id:number){
     return this.http.delete(`${this.userUrl}/${id}`);
   }
+  viewStudent(id:any){
+    return this.http.get(`${this.userUrl}/${id}`);
+  }
 }

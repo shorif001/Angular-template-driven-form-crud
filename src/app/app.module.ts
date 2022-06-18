@@ -8,6 +8,7 @@ import { AddUserComponent } from './components/add-user/add-user.component';
 import { ListUserComponent } from './components/list-user/list-user.component';
 import { EditUserComponent } from './components/edit-user/edit-user.component';
 import { FormsModule } from '@angular/forms';
+import { ViewUserComponent } from './components/view-user/view-user.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FormsModule } from '@angular/forms';
     AddUserComponent,
     ListUserComponent,
     EditUserComponent,
+    ViewUserComponent,
   ],
   imports: [
     BrowserModule,
