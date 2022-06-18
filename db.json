@@ -1,32 +1,11 @@
 {
   "users": [
     {
-      "id": 1,
-      "fullName": "shorif",
-      "mobile": "23232",
-      "email": "ssff@gms.com",
-      "password": "43434"
-    },
-    {
-      "id": 2,
-      "fullName": "Sabbir",
-      "mobile": "4343434343",
-      "email": "sabbir@gmail.com",
-      "password": "sabir345"
-    },
-    {
-      "id": 4,
-      "fullName": "Rohim Mahmud",
-      "mobile": "01715",
-      "email": "rohim@gmai.com",
-      "password": "111111"
-    },
-    {
-      "fullName": "korim",
-      "mobile": "43434",
-      "email": "korim",
-      "password": "korim234",
-      "id": 5
+      "fullName": "a",
+      "mobile": "1",
+      "email": "1",
+      "password": "1",
+      "id": 1
     }
   ],
   "comments": [
